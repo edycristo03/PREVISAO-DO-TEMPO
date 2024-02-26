@@ -17,6 +17,13 @@ body{
     background-size: 100% 100%;
 }
 
+.container{
+    max-width: 992px;
+    width: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
 
 .box-maior{
     background: black;
@@ -98,4 +105,33 @@ body{
     color: white;
     margin: 20px;
     
+}
+
+
+@media only screen and (min-width: 370px) {
+    .container {
+       display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 425px) {
+    .container {
+       display: flex;
+    }
+}
+
+
+
+@media only screen and (min-width: 576px) {
+    .container {
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container {
+        display: flex;
+    }
 }

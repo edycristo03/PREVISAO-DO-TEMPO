@@ -1,6 +1,6 @@
 
 
-const key =  "1e4c0767ca3a6131239c4dc163361aae" 
+const key =  '1e4c0767ca3a6131239c4dc163361aae'
 
 function colocarNomeTela(dados) {
     document.querySelector('.cidade').innerHTML = 'Tempo em ' + dados.name
